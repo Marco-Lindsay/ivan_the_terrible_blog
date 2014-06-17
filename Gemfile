@@ -4,6 +4,7 @@ gem 'faker'
 gem 'jquery-rails'
 gem 'pg'
 gem 'rails', '~> 3.2.13'
+gem 'rack-mini-profiler'
 gem 'rails_12factor', group: :production
 
 group :assets do
@@ -14,7 +15,6 @@ end
 
 group :development, :test do
   gem 'hirb'
-  gem 'pry-doc'
   gem 'pry-rails'
   gem 'rspec-rails'
 end
