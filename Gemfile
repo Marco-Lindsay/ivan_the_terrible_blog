@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'rails', '~> 3.2.13'
 gem 'rack-mini-profiler'
+gem 'puma'
 gem 'cache_digests'
 gem 'rails_12factor', group: :production
 
