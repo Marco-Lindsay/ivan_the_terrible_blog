@@ -1,5 +1,5 @@
-# My New Blog!
 
+## This was the assingment
 I've got a lot to say, and now I have a place to say it!!!!!
 
 Read all my amazing posts!!!!! You can load them into the app with: `rake load:blog`
@@ -7,3 +7,12 @@ Read all my amazing posts!!!!! You can load them into the app with: `rake load:b
 Since I know you want to read them all, I designed my page to show EVERYTHING on the front page of the site!!!!!
 
 I know it is a little slow (but totes worth it!!!!)... _Do you know how I can make it faster?_
+
+This is a fork of https://github.com/brookr/ivan_the_terribles_blog  
+## My approach:
+My main approaches to fix the speed issues with this blog were to implement
+eager loading and russian doll style caching.
+
+Link to heroku app: http://polar-dusk-3945.herokuapp.com/
+
+![Load Impact](https://www.dropbox.com/s/6cwvbyolcynpzij/Screen%20Shot%202014-06-17%20at%204.23.48%20PM.png?raw=true)
